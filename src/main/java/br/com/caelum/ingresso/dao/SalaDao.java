@@ -1,11 +1,13 @@
 package br.com.caelum.ingresso.dao;
 
-import br.com.caelum.ingresso.model.Sala;
-import org.springframework.stereotype.Repository;
+import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import br.com.caelum.ingresso.model.Sala;
 
 /**
  * Created by nando on 03/03/17.
